@@ -1,0 +1,83 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2vw;
+}
+.projectIcon {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 6vw;
+    /* opacity: 0.3; */
+    color: #ad905e;
+    margin-top: 2vw;
+}
+
+.title {
+    font-size: 1.5vw;
+    font-family: 'Carter One', cursive;
+    padding-bottom: 50px;
+}
+.projectList {
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 135vw;
+    position: absolute;
+    justify-content: space-around;
+    transition: left 2s ease-in-out;
+    
+    
+}
+.container .frame {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom{
+    
+    display: flex;
+    flex-direction: row;
+    background-color: #676767;
+    /* cursor: pointer; */
+   
+}
+.bottomLeft {
+    width: 80%;
+    border-bottom: 1px solid #000;
+    margin-left: 0.3vw;
+}
+.bottomTitle {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.bottomContent {
+    font-size: 10px;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+.bottomRight {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 0.3vw;
+    
+}
+.bottomIcon {
+    font-size: 20px;
+    color: white;
+}

@@ -1,0 +1,62 @@
+.top{
+    width: 100%;
+    height: 7vh;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    top: 0;
+    background-color: #f2f2f2;
+}
+.topLeft {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+}
+.topLeftLogo {
+    width: 3vw;
+    
+}
+.topCenter {
+    flex: 9;
+    flex-direction: row;
+}
+
+.topList {
+    display: flex;
+    justify-content: space-around;
+    font-family: Carter One;
+    font-size: 0.8vw;
+    
+}
+.topList li {
+    cursor: pointer;
+}
+.topList .chosen {
+    /* background: linear-gradient(to right,#ff7630,#ffc9d6,#f9e9da,#d52e75,#7b25ae,#6fd759,#f996bf, #152196);  */
+    background: #ad905e;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.topRight {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+}
+.download {
+    width: 6vw;
+    height: 3vh;
+    display: flex;
+    flex-direction: row;
+    border-radius: 3vh;
+    align-items: center;
+    justify-content: center;
+    background: #ad905e;
+    color: white;
+    cursor: pointer;
+    font-size: 0.6vw;
+    text-decoration:none
+}
+.topDownload {
+    margin-right: 0.3vw;
+}

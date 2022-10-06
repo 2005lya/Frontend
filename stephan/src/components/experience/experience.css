@@ -1,0 +1,78 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-top: 2vw;
+    
+}
+.experienceTitle {
+   
+    margin-bottom: 60px;
+
+    
+}
+.expTiitle {
+    font-size: 1.5vw;
+    font-family: 'Carter One', cursive;
+
+}
+.expContainer {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+  
+    background-color: #f5f5f7;
+    margin-bottom: 1vw;
+    border-radius: 0.5vw;
+    padding: 0.4vw;
+}
+.expContainerLeft {
+    width: 20%;
+    /* margin-right: 30px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: wheat; */
+
+}
+.expIcon {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color:#ad905e;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.expLine {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 0px;
+    border: 3px solid #000;
+    height: 70%;
+}
+.expContainerRight {
+    width: 80%;
+    /* background-color: turquoise; */
+    
+}
+.expDate {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.expAddress {
+    margin-bottom: 20px;
+
+}
+.expCity {
+    margin-bottom: 10px;
+}
+.expContent {
+    /* margin-bottom: 30px; */
+    line-height: 30px;
+
+}

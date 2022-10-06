@@ -1,0 +1,103 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#333333 ;
+}
+.aboutTitle {
+    margin-top: 5vh;
+    font-family:'Carter One', cursive;
+    color: white;
+    font-size: 1.5vw;
+}
+.intro {
+    width: 50%;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.8vw;
+    line-height: 2.5vh;
+    margin-top: 5vh;
+    color: white;
+}
+.aboutContainer {
+    /* background-color: springgreen; */
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5vh;
+    
+    
+}
+.aboutLeft, .aboutRight {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    font-size: 1.5vw;
+    
+    
+}
+.aboutIcon {
+    font-size:6vw;
+    margin-right: 1vw;
+    /* color: #f7d046; */
+    color: #ad905e;
+
+}
+
+.aboutOffer {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.offerTitle {
+    text-align: center;
+    margin-bottom: 5vh;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5vw;
+} 
+.service {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 30vh;
+   
+}
+.service1, .service2, .service3 {
+    width: 16vw;
+    height: 16vw;
+    font-size: 1vw;
+    /* background-color:yellowgreen; */
+    background-color: #ad905e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2vw;
+    /* border: 1px solid #000; */
+}
+
+.serviceIcon {
+    margin-top: 4vh;
+    font-size: 3vw;
+}
+
+.serviceTitle {
+    margin-top: 2vh;
+}
+
+.serviceContent {
+    margin-top: 2vh;
+    width: 85%;
+    font-size: 0.8vw;
+}
+

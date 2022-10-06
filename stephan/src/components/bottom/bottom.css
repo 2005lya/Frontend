@@ -1,0 +1,24 @@
+.bottom {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+  
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    color: white;
+    justify-content: center;
+
+}
+.bottom p {
+    cursor: pointer;
+}
+.copyRight 
+{
+    font-size: 10px;
+    margin-right: 50px;
+}
+.bottomMargin {
+    margin-right: 50px;
+    font-size: 12px;
+}

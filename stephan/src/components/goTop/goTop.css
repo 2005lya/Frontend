@@ -1,0 +1,13 @@
+.goTop {
+    position:fixed;
+    right:40px;
+    bottom: 40px;
+    /* width:50px;
+    height:50px; 
+    background-color: brown; */
+    font-size: 30px;
+    color: #ad905e;
+    cursor: pointer;
+
+    /* overflow: auto; */
+}
