@@ -1,1 +1,1 @@
-# [My personal portfolio](https://mycubes.co.nz)
+# [My personal portfolio](http://mycubes.co.nz)
