@@ -1,0 +1,13 @@
+.container {
+    margin: 0 auto;
+   
+    text-align: center;
+}
+
+.form-ctrl{
+    margin-top: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+}
