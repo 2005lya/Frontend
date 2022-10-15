@@ -6,5 +6,7 @@ This is a weather application build with reactJS, using weather API 7Timer! CIVI
 In this application, you can get the weather information base on your location, including the date information, the average temperature, the weather, lowest & highest temperature and the 7-days forecast. uckland city is the default city, ignore the city name if you are out of Aucland. 
 
 
-## 2.Getting start
+## 2.Getting started
+1.Clone thee repo
+git clone 
 
